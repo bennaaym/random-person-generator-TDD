@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 import src.random_person_generator as r
-import os
+
 
 class TestRandomPerson(unittest.TestCase):
     """

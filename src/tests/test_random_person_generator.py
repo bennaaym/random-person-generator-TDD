@@ -57,7 +57,7 @@ class TestRandomPerson(unittest.TestCase):
                               "'darnell.tannenbaum@aol.com', 'sex': 'female', 'age': 20, " \
                               "'job': 'programmer', 'phone': '232-40-882'}'
                             """
-        self.assertEqual(create_person(), """{'first_name': 'Darnell', 'last_name': 'Tannenbaum', 'email': " \
+        self.assertEqual(r.create_person(), """{'first_name': 'Darnell', 'last_name': 'Tannenbaum', 'email': " \
                               "'darnell.tannenbaum@aol.com', 'sex': 'female', 'age': 20, " \
                               "'job': 'programmer', 'phone': '232-40-882'}'
                             """)
